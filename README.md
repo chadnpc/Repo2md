@@ -3,7 +3,8 @@
 
 🔥 Blazingly fast PowerShell thingy that converts code repositories into a markdown format.
 
-[![Rust Build](https://github.com/chadnpc/Repo2md/actions/workflows/Rust.yml/badge.svg)](https://github.com/chadnpc/Repo2md/actions/workflows/Rust.yml)
+[![Build Rust](https://github.com/chadnpc/Repo2md/actions/workflows/build_rust.yml/badge.svg)](https://github.com/chadnpc/Repo2md/actions/workflows/build_rust.yml)
+[![Build Module](https://github.com/chadnpc/Repo2md/actions/workflows/build_module.yaml/badge.svg)](https://github.com/chadnpc/Repo2md/actions/workflows/build_module.yaml)
 
 ## Usage
 
