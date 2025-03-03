@@ -1,4 +1,4 @@
-﻿name: Module Build
+﻿name: Build Module
 on: [workflow_dispatch]
 defaults:
   run:

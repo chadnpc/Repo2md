@@ -1,4 +1,4 @@
-name: Rust Build
+name: Build Rust
 
 on:
   push:
@@ -11,7 +11,7 @@ env:
 
 jobs:
   build:
-    name: Runs on windows & unix
+    name: Runs on
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
