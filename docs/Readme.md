@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document outlines the requirements for a 🔥 Blazingly fast PowerShell thingy that converts code repositories into a markdown format. The primary purpose is to provide a readable snapshot of the repository's structure and contents, considering ignore patterns specified in `.gitignore` and `.git/info/exclude` files, as well as user-defined include and exclude options.
+The primary purpose is to provide a readable snapshot of the repository's structure and contents, considering ignore patterns specified in `.gitignore` and `.git/info/exclude` files, as well as user-defined include and exclude options.
 
 ## 2. Tool Functionality
 
