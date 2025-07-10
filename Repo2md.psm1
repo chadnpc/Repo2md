@@ -282,10 +282,10 @@ $scripts += Get-ChildItem "$PSScriptRoot/Private" -Filter "*.ps1" -Recurse -Erro
 $scripts += $Public
 
 foreach ($file in $scripts) {
-  Try {
+  try {
     if ([string]::IsNullOrWhiteSpace($file.fullname)) { continue }
     . "$($file.fullname)"
-  } Catch {
+  } catch {
     Write-Warning "Failed to import function $($file.BaseName): $_"
     $host.UI.WriteErrorLine($_)
   }
